@@ -1,5 +1,3 @@
-FizzBuzz = require "../src/fizz_buzz"
-assert = require "power-assert"
 
 describe "FizzBuzz", ->
   beforeEach ->

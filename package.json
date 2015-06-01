@@ -21,7 +21,14 @@
     "espower-coffee": "^0.10.0",
     "gulp": "^3.8.11",
     "gulp-mocha": "^2.1.0",
+    "karma": "^0.12.35",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-coffee-preprocessor": "^0.2.1",
+    "karma-espower-preprocessor": "0.0.4",
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^0.2.0",
     "mocha": "^2.2.5",
+    "phantomjs": "^1.9.17",
     "power-assert": "^0.11.0"
   }
 }

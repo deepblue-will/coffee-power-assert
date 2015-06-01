@@ -1,7 +1,7 @@
 g = require 'gulp'
-mocha = require 'gulp-mocha'
+karma = require('karma').server
 
 g.task 'test', ->
-  require 'espower-coffee/guess'
-  g.src 'test/**/*_test.coffee'
-    .pipe mocha()
+  karma.start
+    configFile: "#{__dirname}/karma.conf.coffee",
+    singleRun: true

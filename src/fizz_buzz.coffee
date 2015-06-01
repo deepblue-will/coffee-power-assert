@@ -1,4 +1,3 @@
-
 class FizzBuzz
 
   getFizzBuzzStr: (i) ->
@@ -10,5 +9,3 @@ class FizzBuzz
       'Fizz'
     else
       i.toString()
-
-module.exports = FizzBuzz
