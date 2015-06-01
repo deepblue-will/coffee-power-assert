@@ -1,0 +1,27 @@
+{
+  "name": "coffee-power-assert",
+  "version": "1.0.0",
+  "description": "CoffeeScript + power-assertのサンプルです",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require espower-coffee/guess test/**/*_test.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepblue-will/coffee-power-assert.git"
+  },
+  "author": "deepblue_will",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deepblue-will/coffee-power-assert/issues"
+  },
+  "homepage": "https://github.com/deepblue-will/coffee-power-assert#readme",
+  "devDependencies": {
+    "coffee-script": "^1.9.3",
+    "espower-coffee": "^0.10.0",
+    "gulp": "^3.8.11",
+    "gulp-mocha": "^2.1.0",
+    "mocha": "^2.2.5",
+    "power-assert": "^0.11.0"
+  }
+}
