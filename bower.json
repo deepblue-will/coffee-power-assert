@@ -1,0 +1,20 @@
+{
+  "name": "coffee-power-assert",
+  "version": "0.0.1",
+  "homepage": "https://github.com/deepblue-will/coffee-power-assert",
+  "authors": [
+    "deepblue_will <deepblue.will@gmail.com>"
+  ],
+  "description": "CoffeeScript + power-assert + angular",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0"
+  }
+}

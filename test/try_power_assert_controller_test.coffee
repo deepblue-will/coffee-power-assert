@@ -1,7 +1,7 @@
 
-describe "FizzBuzz", ->
+describe "TryPowerAssertController", ->
   beforeEach ->
-    @target = new FizzBuzz()
+    @target = new TryPowerAssertController({})
 
   describe "#getFizzBuzzStr()は", ->
     it "3で割り切れる数字を与えるとFizzを返却すること",  ->

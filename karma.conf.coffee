@@ -12,7 +12,8 @@ module.exports = (config) ->
     # list of files / patterns to load in the browser
     files: [
       'node_modules/power-assert/build/power-assert.js'
-      'src/**/*.coffee'
+      'src/bower_components/angular/angular.min.js'
+      'src/scripts/**/*.coffee'
       'test/**/*_test.coffee'
     ],
 
